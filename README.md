@@ -4,7 +4,7 @@
 
 Pokédex (palavra comum no vocabulário dos amantes de Pokémon)é uma enciclopédia virtual que contém várias espécies de pokémon. 
 
-| :placard: The Last Of Us |     |
+| :placard: Pokedex |     |
 | -------------  | --- |
 |:label: Tecnologias | React, JavaScript, Html5, CSS3 e Next.Js (tecnologias utilizadas)|
 
