@@ -1,0 +1,14 @@
+.divNavBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+.listNavBar {
+  display: flex;
+  gap: 1rem;
+}
+.listNavBar li {
+  color: var(--write);
+}

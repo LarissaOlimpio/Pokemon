@@ -1,6 +1,9 @@
-.title{
+.divFooter{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 0.8rem;
     color: var(--write);
+    padding: 2rem;
+
 }
