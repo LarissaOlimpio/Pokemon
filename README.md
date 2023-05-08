@@ -1,27 +1,24 @@
-This is a Next.js project bootstrapped with create-next-app.
+# Pokedex
 
-Getting Started
-First, run the development server:
+## Introdução
 
-npm run dev
-# or
-yarn dev
-Open http://localhost:3000 with your browser to see the result.
+Pokédex (palavra comum no vocabulário dos amantes de Pokémon)é uma enciclopédia virtual que contém várias espécies de pokémon. 
 
-You can start editing the page by modifying pages/index.js. The page auto-updates as you edit the file.
+| :placard: The Last Of Us |     |
+| -------------  | --- |
+|:label: Tecnologias | React, JavaScript, Html5, CSS3 e Next.Js (tecnologias utilizadas)|
 
-API routes can be accessed on http://localhost:3000/api/hello. This endpoint can be edited in pages/api/hello.js.
+> Status do projeto: Em desenvolvimento
 
-The pages/api directory is mapped to /api/*. Files in this directory are treated as API routes instead of React pages.
 
-Learn More
-To learn more about Next.js, take a look at the following resources:
+### Como rodar o projeto:
 
-Next.js Documentation - learn about Next.js features and API.
-Learn Next.js - an interactive Next.js tutorial.
-You can check out the Next.js GitHub repository - your feedback and contributions are welcome!
+**Você pode clonar o projeto e rodá-lo localmente seguindo os passos abaixo**
 
-Deploy on Vercel
-The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
+1. `git clone https://github.com/LarissaOlimpio/pokemon.git` para clonar o projeto
+2. `yarn` ou `npm install` para instalar as dependências do projeto
+3. `yarn run dev` ou `npm run dev` para rodar o projeto
+4. Acessar [http://localhost:3000](http://localhost:3000) no navegador
 
-Check out our Next.js deployment documentation for more details.
+
+**Este é um projeto Next.js inicializado com create-next-app, para saber mais acesse a documentação: https://nextjs.org/**
