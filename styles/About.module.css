@@ -1,0 +1,25 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--write);
+    padding: 2rem;
+   
+}
+.title{
+    font-size: 1.8rem;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 1.5rem;
+    padding: 3rem;
+    margin-top: 3rem;
+}
+.description p{
+    max-width: 30%;
+    line-height: 1.5;
+}

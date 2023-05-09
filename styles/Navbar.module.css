@@ -12,4 +12,11 @@
 }
 .listNavBar li {
   color: var(--write);
+  padding-bottom: .5rem;
+  border-bottom: 3px solid transparent;
+  transition: .4s;
+
+}
+.listNavBar li:hover{
+  border-color: var(--write);
 }

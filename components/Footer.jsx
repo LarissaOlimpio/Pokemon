@@ -7,7 +7,7 @@ export default function Footer() {
     <div className={styles.divFooter}>
       <p>Desenvolvido por Larissa Olimpio</p>
 
-      {/*<a href="https://github.com/LarissaOlimpio" target="_blank" >
+      <a href="https://github.com/LarissaOlimpio" target="_blank" >
         <Image
           src="/assets/logoGitHub.svg"
           width={25}
@@ -24,7 +24,7 @@ export default function Footer() {
           alt="Ícone Linkedin"
           className={styles.icon}
         />
-  </a>*/}
+  </a>
     </div>
   );
 }
