@@ -8,3 +8,6 @@
     font-size: 1.5rem;
 
 }
+.icon{
+    filter: invert(1);
+}
