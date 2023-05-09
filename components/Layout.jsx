@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import styles from "../styles/Layout.module.css"
 
 export default function Layout({ children }) {
   return (
@@ -14,7 +15,7 @@ export default function Layout({ children }) {
       </Head>
 
       <Navbar />
-      <main>{children}</main>
+      <main className={styles.main}>{children}</main>
       <Footer />
     </>
   );

@@ -1,9 +1,10 @@
 .divNavBar {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   gap: 2rem;
   padding: 2rem;
+  font-size: 1.3rem;
 }
 .listNavBar {
   display: flex;

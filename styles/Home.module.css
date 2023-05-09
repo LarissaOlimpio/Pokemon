@@ -1,6 +1,8 @@
-.title{
+.header{
     display: flex;
     justify-content: center;
     align-items: center;
     color: var(--write);
+    gap: 1rem;
+    font-size: 2.8rem;
 }
