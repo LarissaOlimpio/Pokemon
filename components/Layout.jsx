@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import styles from "../styles/Layout.module.css"
+import styles from "../styles/Layout.module.css";
+import { HeroPattern } from "./HeroPattern";
 
 export default function Layout({ children }) {
   return (
@@ -13,9 +14,9 @@ export default function Layout({ children }) {
         />
         <link rel="shortcut icon" href="/assets/favicon.ico" />
       </Head>
-
+      <HeroPattern className={styles.heroPattern}/>
       <Navbar />
-      <main className={styles.main}>{children}</main>
+      <main className={styles.main}> {children} </main>
       <Footer />
     </>
   );

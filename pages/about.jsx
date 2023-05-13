@@ -11,6 +11,7 @@ export default function About() {
           <p>Pokedex é um App para consultar Pokémons.Este projeto foi construído em Next.js utilizando também React e as tecnologias bases do FronEnd como HTML5, CSS3 e JavaScript. Além disso para fazer a consulta dos pokemons foi utilizado a Api: PokeApi.</p>
           <p></p>
           <Image
+            className={styles.image}
             src="/assets/charizard.png"
             alt="Charizard"
             width="300"

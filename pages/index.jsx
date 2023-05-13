@@ -23,13 +23,13 @@ export default function Home({ pokemons }) {
   return (
     <>
       <div className={styles.header}>
-        <Image src="/assets/pokeball.png" width={70} height={70} />
+        <Image src="/assets/pokeball.png" width={70} height={70} alt="pokeball" />
         <h1>Pokedex</h1>
       </div>
 
       <div className={styles.containerPokemons}>
         {pokemons.map((pokemon) => (
-          <Card pokemon={pokemon} />
+          <Card pokemon={pokemon} key={pokemon.id}/>
         ))}
       </div>
     </>
