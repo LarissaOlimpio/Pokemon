@@ -9,14 +9,15 @@
 .listNavBar {
   display: flex;
   gap: 1rem;
+  list-style: none;
+  text-decoration: none !important;
 }
 .listNavBar li {
-  color: var(--write);
-  padding-bottom: .5rem;
+  color: #ffffff;
+  padding-bottom: 0.5rem;
   border-bottom: 3px solid transparent;
-  transition: .4s;
-
+  transition: 0.4s;
 }
-.listNavBar li:hover{
-  border-color: var(--write);
+.listNavBar li:hover {
+  border-color: #ffffff;
 }
