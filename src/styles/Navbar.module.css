@@ -10,10 +10,8 @@
   display: flex;
   gap: 1rem;
   list-style: none;
-  text-decoration: none !important;
 }
 .listNavBar li {
-  color: #ffffff;
   padding-bottom: 0.5rem;
   border-bottom: 3px solid transparent;
   transition: 0.4s;

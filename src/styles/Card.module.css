@@ -1,0 +1,13 @@
+.cardPokemon{
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.382);
+  border-radius: 20px;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: rgba(242, 243, 231, 0.123);
+  z-index: 10;
+  
+}
+.cardPokemon h3{
+  color: var(--write);
+}

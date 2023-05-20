@@ -13,6 +13,7 @@ export default function Layout({ children }) {
           content="Nossa Pokédex (palavra comum no vocabulário dos amantes de Pokémon)é uma enciclopédia virtual que contém várias espécies de pokémon."
         />
         <link rel="shortcut icon" href="/assets/favicon.ico" />
+
       </Head>
       <HeroPattern className={styles.heroPattern} />
       <Navbar />

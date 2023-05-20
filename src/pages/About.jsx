@@ -17,10 +17,10 @@ export default function About() {
         <p></p>
         <Image
           className={styles.image}
-          src="/assets/charizard.png"
+          src="/assets/pikachu.png"
           alt="Charizard"
-          width="300"
-          height="300"
+          width={400}
+          height={400}
         />
       </div>
     </div>

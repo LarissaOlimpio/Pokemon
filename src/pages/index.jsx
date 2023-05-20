@@ -29,7 +29,12 @@ export default function Home({ pokemons }) {
           height={70}
           alt="pokeball"
         />
-        <h1>Pokedex</h1>
+         <Image
+          src="/assets/pokedex.png"
+          width={350}
+          height={150}
+          alt="pokeball"
+        />
       </div>
 
       <div className={styles.containerPokemons}>
