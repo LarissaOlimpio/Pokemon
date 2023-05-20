@@ -6,6 +6,10 @@
     gap: 1rem;
     font-size: 2.8rem;
 }
+.imagePokeball{
+    width: 90px;
+    height: 90px;
+}
 .containerPokemons{
     display: flex;
     flex-wrap: wrap;

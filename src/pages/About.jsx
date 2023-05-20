@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import styles from '../styles/About.module.css'
-
+import Image from "next/image";
+import styles from "../styles/About.module.css";
+import pikachu from "../../public/assets/pikachu.png";
 export default function About() {
   return (
     <div className={styles.about}>
@@ -16,13 +16,11 @@ export default function About() {
         </p>
         <p></p>
         <Image
-          className={styles.image}
-          src="/assets/pikachu.png"
-          alt="Charizard"
-          width={400}
-          height={400}
+          className={styles.pikachuImage}
+          src={pikachu}
+          alt="pikachuImage"
         />
       </div>
     </div>
-  )
+  );
 }

@@ -24,6 +24,8 @@
     max-width: 30%;
     line-height: 1.5;
 }
-.image{
+.pikachuImage{
+    width: 300px;
+    height: 300px;
     z-index: 10;
 }

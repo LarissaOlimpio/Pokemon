@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Card from '@/src/components/Card'
+import pokeball from '../../public/assets/pokeball.png'
+import pokedexName from  '../../public/assets/pokedexName.png'
+
 
 export async function getStaticProps() {
   const maxPokemon = 251
@@ -24,16 +27,14 @@ export default function Home({ pokemons }) {
     <>
       <div className={styles.header}>
         <Image
-          src="/assets/pokeball.png"
-          width={70}
-          height={70}
-          alt="pokeball"
+          src={pokeball}
+          alt="pokeballImage"
+          className={styles.imagePokeball}
         />
          <Image
-          src="/assets/pokedex.png"
-          width={350}
-          height={150}
-          alt="pokeball"
+          src={pokedexName}
+          alt="pokedexNameImage"
+          className={styles.pokedexName}
         />
       </div>
 

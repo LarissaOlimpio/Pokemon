@@ -5,14 +5,16 @@ export default function Card({ pokemon }) {
   return (
     <div className={styles.containerPokemons}>
       <div className={styles.cardPokemon}>
-        
+        <div className={styles.divNamePokemon}>
+          <h3>{pokemon.name}</h3>
+        </div>
         <Image
           src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`}
           width={130}
           height={130}
           alt={pokemon.name}
         />
-        <h3>{pokemon.name}</h3>
+       
       </div>
     </div>
   )
