@@ -1,13 +1,16 @@
-.divFooter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.8rem;
-    color: var(--write);
-    padding: 2rem;
-    font-size: 1.5rem;
-
+.divFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  color: var(--write);
+  padding: 2rem;
+  font-size: 1.5rem;
 }
-.icon{
-    filter: invert(1);
+.icon {
+  filter: invert(1);
+  transition: 0.3s ease-in-out;
+}
+.icon:hover {
+  transform: scale(1.2);
 }

@@ -1,11 +1,13 @@
 import Image from "next/image";
 import styles from "../styles/About.module.css";
 import pikachu from "../../public/assets/pikachu.png";
+import aboutImage from "../../public/assets/about.png"
+
 export default function About() {
   return (
     <div className={styles.about}>
       <div className={styles.title}>
-        <h1>Sobre o projeto</h1>
+        <Image src={aboutImage} alt="Sobre o projeto" className={styles.aboutImage}/>
       </div>
       <div className={styles.description}>
         <p>
