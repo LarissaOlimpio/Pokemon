@@ -1,14 +1,22 @@
 .cardPokemon{
-  box-shadow: 5px 10px rgba(36, 36, 36, 0.382);
-  border-radius: 20px;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 1em;
   margin: 1rem;
-  padding: 1rem;
+  padding: 2em 1em;
   text-align: center;
+  border: 1px solid rgb(57, 54, 255);
   background-color: rgba(242, 243, 231, 0.043);
+  transition: all .4s;
   z-index: 10;
   
 }
 .cardPokemon h3{
   color: var(--write);
   font-size: 1.5rem;
+  padding: 1rem 0 1rem 0;
+  text-transform: capitalize;
+}
+
+.cardPokemon:hover{
+  border: 2px solid #ffffff ;
 }

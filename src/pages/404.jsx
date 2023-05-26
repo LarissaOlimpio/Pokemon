@@ -1,7 +1,7 @@
-import Image from "next/image";
-import styles from "../styles/NotFound.module.css";
-import error404 from "../../public/assets/error404.png";
-import meowth from "../../public/assets/meowth.png"
+import Image from 'next/image';
+import styles from '../styles/NotFound.module.css';
+import error404 from '../../public/assets/error404.png';
+import meowth from '../../public/assets/meowth.png'
 export default function NotFound() {
   return (
     <div className={styles.divErrorMenssage}>
