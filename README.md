@@ -2,7 +2,9 @@
 
 ## Introdução
 
-Pokédex (palavra comum no vocabulário dos amantes de Pokémon)é uma enciclopédia virtual que contém várias espécies de pokémon. 
+Pokédex (palavra comum no vocabulário dos amantes de Pokémon)é uma enciclopédia virtual que contém várias espécies de pokémon.
+Neste projeto podemos visualizar 251 pokemons e consultar informações sobre eles clicando no botão de detalhes, além de conter página sobre o projeto e 404 personalizada. 
+Os dados  e as imagens dos pokemons encontrados na página inicial e em detalhes, são carregados por meio de duas API, sendo assim, para fazer apré renderização utilizei as funções getStaticProps e getStaticPath do Next.Js, possibilitando assim a geração de páginas estáticas a partir de geração de arquivos HTML e JSON no momento da compilação do projeto.
 
 | :placard: Pokedex |     |
 | -------------  | --- |
@@ -25,3 +27,11 @@ Pokédex (palavra comum no vocabulário dos amantes de Pokémon)é uma enciclop�
 
 
 **Este é um projeto Next.js inicializado com create-next-app, para saber mais acesse a documentação: https://nextjs.org/**
+
+
+Link das api utilizadas no projeto:
+``
+`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`
+
+- [PokéAPI](https://pokeapi.co/) - dados dos pokemons
+- `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png` - Imagens 
