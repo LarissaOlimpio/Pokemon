@@ -11,6 +11,8 @@ Pokédex (palavra comum no vocabulário dos amantes de Pokémon)é uma enciclop�
 
 > Status do projeto: Em desenvolvimento
 
+![pokedex](https://github.com/LarissaOlimpio/pokemon/assets/50180854/1b36a369-03f9-4ef6-8f63-6bdb0bc49d83#vitrinedev)
+
 
 ### Como rodar o projeto:
 
