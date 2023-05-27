@@ -16,9 +16,16 @@ export default function Layout({ children }) {
 
       </Head>
      
-      <Navbar />
-      <main className={styles.main}> {children} </main>
-      <Footer />
+        <div className={styles.background}></div>
+        <Navbar />
+        <main className={styles.main}> {children} </main>
+        
+        <Footer />
+        <div className={styles.attribute}>
+          <p ><a href="https://www.freepik.com/free-vector/blue-stylish-halftone-comic-zoom-background_17995618.htm#query=pokemon&position=5&from_view=search&track=sph">Image by vector_corp</a> on Freepik</p>
+        </div>
+       
+     
     </>
   )
 }

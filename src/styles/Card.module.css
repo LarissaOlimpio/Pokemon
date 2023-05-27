@@ -1,22 +1,32 @@
-.cardPokemon{
+.cardPokemon {
   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
   border-radius: 1em;
   margin: 1rem;
   padding: 2em 1em;
   text-align: center;
   border: 1px solid rgb(57, 54, 255);
-  background-color: rgba(242, 243, 231, 0.043);
-  transition: all .4s;
-  z-index: 10;
-  
+  background-color:#195CAB;
+  transition: all 0.4s;
+
 }
-.cardPokemon h3{
+.cardPokemon h3 {
   color: var(--write);
   font-size: 1.5rem;
   padding: 1rem 0 1rem 0;
   text-transform: capitalize;
 }
 
-.cardPokemon:hover{
-  border: 2px solid #ffffff ;
+.cardPokemon:hover {
+  border: 2px solid #ffffff;
+}
+.link{
+  text-decoration: none;
+  background-color: #6987f4;
+  padding: 0.7em 1.2em;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.link:hover{
+  background-color: #5364fe;
 }

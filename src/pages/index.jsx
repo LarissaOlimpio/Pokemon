@@ -25,6 +25,7 @@ export async function getStaticProps() {
 export default function Home({ pokemons }) {
   return (
     <>
+    
       <div className={styles.header}>
         <Image
           src={pokeball}
