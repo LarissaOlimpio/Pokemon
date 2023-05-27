@@ -7,6 +7,7 @@ Pokédex (palavra comum no vocabulário dos amantes de Pokémon)é uma enciclop�
 | :placard: Pokedex |     |
 | -------------  | --- |
 |:label: Tecnologias | React, JavaScript, Html5, CSS3 e Next.Js (tecnologias utilizadas)|
+| :rocket: URL         | https://pokemon-qene.vercel.app/
 
 > Status do projeto: Em desenvolvimento
 
