@@ -11,6 +11,10 @@
 }
 .attribute{
   text-align: center;
+  
+}
+.attribute a {
+  color: var(--write);
 }
 
 
