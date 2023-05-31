@@ -14,12 +14,10 @@ export default function Card({ pokemon }) {
       <p>#{pokemon.id}</p>
       <h3>{pokemon.name}</h3>
       <div className={styles.link}>
-        <Link href={`/pokemon/${pokemon.id}`}>Detalhes</Link>
+        <Link className={styles.details} href={`/pokemon/${pokemon.id}`}>Detalhes</Link>
       </div>
     </div>
   );
 }
 
-{
-  /*    `https://cdn.traction.one/pokedex/pokemon/${pokemon.id}.png`*/
-}
+

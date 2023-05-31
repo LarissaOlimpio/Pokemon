@@ -30,7 +30,7 @@ export default function Home({ pokemons }) {
         <Image
           src={pokeball}
           alt="pokeballImage"
-          className={styles.imagePokeball}
+          className={styles.pokeballImage}
         />
          <Image
           src={pokedexName}

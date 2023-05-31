@@ -10,12 +10,14 @@
   display: flex;
   gap: 1rem;
   list-style: none;
+  
 }
 .listNavBar li {
   padding-bottom: 0.5rem;
   border-bottom: 3px solid transparent;
   transition: 0.4s;
+  color: var(--write);
 }
 .listNavBar li:hover {
-  border-color: #ffffff;
+  border-color: var(--write);
 }

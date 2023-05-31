@@ -1,11 +1,11 @@
 .background {
   position: fixed;
   top: 0;
-  right: 0;
-  background-image: url("/assets/backgroundBlue.jpg");
+  left: 0;
   z-index: -1;
+  background-image: url("/assets/backgroundBlue.jpg");
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   object-fit: cover;
   background-repeat: no-repeat;
 }
@@ -14,14 +14,3 @@
 }
 
 
-/*.main:after {
-  content: "";
-  min-height: 100vh;
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: rgb(65,80,145);
-  background: linear-gradient(90deg, rgba(65,80,145,1) 15%, rgba(49,107,187,0.865983893557423) 50%, rgba(65,80,145,1) 85%);
-z-index: -1;
-}*/
