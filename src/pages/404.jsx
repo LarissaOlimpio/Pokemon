@@ -14,7 +14,7 @@ export default function NotFound() {
         inicial.
       </p>
       <div classname={styles.imageCharizard}>
-        <Image  src={charizard} alt="imagem do pokemon charizard"/>
+        <Image className={styles.charizardImage} src={charizard} alt="imagem do pokemon charizard"/>
       </div>
      
     </div>
